@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[]) {
     int server_socket, neuer_socket;
-    int laenge;
+    unsigned int laenge;
     struct sockaddr_in serverinfo, clientinfo;
     unsigned short int portnummer = 5000;
     char server_ip[] = "127.0.0.1";
